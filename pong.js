@@ -48,10 +48,10 @@ function raquete() {
 }
 
 function movimentoDaRaquete() {
-  if(keyIsDown(UP_ARROW) === true){
+  if(keyIsDown(UP_ARROW)){
     raqueteY -= 10;
 }
-  if(keyIsDown(DOWN_ARROW) === true){
+  if(keyIsDown(DOWN_ARROW)){
     raqueteY += 10;
   }
 }
