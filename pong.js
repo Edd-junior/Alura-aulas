@@ -46,12 +46,3 @@ function colisão() {
 function raquete() {
   rect(raqueteX, raqueteY, largura, altura);
 }
-
-function movimentoDaRaquete() {
-  if(keyIsDown(UP_ARROW)){
-    raqueteY -= 10;
-}
-  if(keyIsDown(DOWN_ARROW)){
-    raqueteY += 10;
-  }
-}
