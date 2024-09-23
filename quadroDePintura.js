@@ -4,10 +4,13 @@ function setup() {
 }
 
 function draw() {  
+  lapis();
+}
+function lapis(){
   stroke("black");
   fill("white");
 
   if(mouseIsPressed){
-    rect(mouseX, mouseY,10,20)
- }
+    rect(mouseX, mouseY, 20, 35);
+  }
 }
