@@ -46,3 +46,7 @@ function colisão() {
 function raquete() {
   rect(raqueteX, raqueteY, largura, altura);
 }
+
+function movimentoRaquete() {
+  
+}
