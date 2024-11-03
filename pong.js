@@ -48,5 +48,9 @@ function raquete() {
 }
 
 function movimentoRaquete() {
-  
+  if(keyIsDown(UP_ARROW)){
+    raqueteY -= 10;
+  }
+    if(keyIsDown(DOWN_ARROW)){
+    raqueteY += 10;
 }
