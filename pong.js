@@ -54,6 +54,7 @@ function movimentoRaquete() {
   }
     if(keyIsDown(DOWN_ARROW)){
     raqueteY += 10;
+  }
 }
 
 function colisãoRaquete(){
