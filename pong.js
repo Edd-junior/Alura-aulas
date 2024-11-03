@@ -21,7 +21,8 @@ function draw() {
   //movimentoDaBola();
   colisão();
   raquete();
-  movimentoDaRaquete();
+  movimentoRaquete();
+  colisãoRaquete();
 }
 
 function bola() {
