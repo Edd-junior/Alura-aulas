@@ -1,15 +1,22 @@
+//variáveis da bola
 let xBola = 300;
 let yBola = 200;
 let diametro = 30;
 let raio = diametro / 2;
 
+//variáveis de velocidade
 let velocidadeX = 8;
 let velocidadeY = 8;
 
+//variáveis da raquete
 let raqueteX = 5;
 let raqueteY = 150;
 let largura = 10;
 let altura = 125;
+
+//variáveis da raquete oponente
+let raqueteOponenteX = -5;
+let raqueteOponenteY = 125;
 
 function setup() {
   createCanvas(600, 400);
@@ -18,7 +25,7 @@ function setup() {
 function draw() {
   background(0);
   bola();
-  //movimentoDaBola();
+  movimentoDaBola();
   colisão();
   raquete();
   movimentoRaquete();
