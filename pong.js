@@ -54,3 +54,9 @@ function movimentoRaquete() {
     if(keyIsDown(DOWN_ARROW)){
     raqueteY += 10;
 }
+
+function colisãoRaquete(){
+  if(xBola - raio < raqueteX + largura && yBola - raio < raqueteY + altura && yBola + raio > raqueteY){
+    velocidadeX *= -1;
+  }
+}
