@@ -30,6 +30,7 @@ function draw() {
   movimentoDaBola();
   colisão();
   raquete();
+  raqueteOponente();
   movimentoRaquete();
   colisãoRaquete();
 }
