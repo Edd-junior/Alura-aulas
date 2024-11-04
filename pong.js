@@ -73,7 +73,7 @@ function movimentoRaquete() {
 }
 
 function movimentoRaqueteOponente() {
-  
+  velocidadeOponenteY  =  yBola - yRaqueteOponente - larguraOponente /2 - 30;
 }
 
 
