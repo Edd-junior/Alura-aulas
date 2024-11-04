@@ -19,6 +19,7 @@ let raqueteOponenteX = 581;
 let raqueteOponenteY = 125;
 let larguraOponente = 10;
 let alturaOponente = 125;
+let velocidadeOponenteY;
 
 function setup() {
   createCanvas(600, 400);
@@ -71,8 +72,15 @@ function movimentoRaquete() {
   }
 }
 
+function movimentoRaqueteOponente() {
+  
+}
+
+
 function colisãoRaquete(){
   if(xBola - raio < raqueteX + largura && yBola - raio < raqueteY + altura && yBola + raio > raqueteY){
     velocidadeX *= -1;
   }
 }
+
+
