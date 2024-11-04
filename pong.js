@@ -15,8 +15,10 @@ let largura = 10;
 let altura = 125;
 
 //variáveis da raquete oponente
-let raqueteOponenteX = -5;
+let raqueteOponenteX = 581;
 let raqueteOponenteY = 125;
+let larguraOponente = 10;
+let alturaOponente = 125;
 
 function setup() {
   createCanvas(600, 400);
@@ -53,6 +55,10 @@ function colisão() {
 
 function raquete() {
   rect(raqueteX, raqueteY, largura, altura);
+}
+
+function raqueteOponente() {
+  rect(raqueteOponenteX, raqueteOponenteY, larguraOponente, alturaOponente)
 }
 
 function movimentoRaquete() {
