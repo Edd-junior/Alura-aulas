@@ -35,6 +35,7 @@ function draw() {
   movimentoRaqueteOponente();
   movimentoRaquete();
   colisãoRaquete();
+  colisãoRaqueteOponente();
 }
 
 function bola() {
@@ -85,4 +86,9 @@ function colisãoRaquete(){
   }
 }
 
+function colisãoRaqueteOponente(){
+  if(xBola - raio < raqueteOponenteX + larguraOponente && yBola - raio < raqueteOponenteY + alturaOponente && yBola + raio > raqueteOponenteY){
+    velocidadeX *= 1;
+  }
+}
 
