@@ -32,6 +32,7 @@ function draw() {
   colisão();
   raquete();
   raqueteOponente();
+  movimentoRaqueteOponente();
   movimentoRaquete();
   colisãoRaquete();
 }
@@ -74,6 +75,7 @@ function movimentoRaquete() {
 
 function movimentoRaqueteOponente() {
   velocidadeOponenteY  =  yBola - yRaqueteOponente - larguraOponente /2 - 30;
+   raqueteOponenteY += velocidadeOponenteY;
 }
 
 
