@@ -94,3 +94,7 @@ function colisãoRaqueteOponente(){
   }
 }
 
+function placar() {
+  text(meusPontos, 278, 26)
+  text(pontosOponente, 321, 26)
+}
