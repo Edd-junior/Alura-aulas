@@ -21,6 +21,8 @@ let larguraOponente = 10;
 let alturaOponente = 125;
 let velocidadeOponenteY;
 
+let colidu = false
+
 function setup() {
   createCanvas(600, 400);
 }
