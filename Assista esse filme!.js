@@ -9,20 +9,23 @@
 // Star wars, 12, ficção científica
 
 let idadeUser;
+let fantasiaUser;
 
 function setup() {
   createCanvas(400, 400);
   idadeUser = createImput();
+  createCheckbox("gostaDeFantasia") 
 }
 
 function draw() {
   background(220);
   let idade = idadeUser.value;
+  let gostaDeFantasia = fantasiaUser.checked;
   let recomendacao = geraRecomendacao(idade);
   text(recomendacao, width / 2, height / 2);
 }
 
-function geraRecomendacao(idade) {
+function geraRecomendacao(idade, gostaDeFantasia) {
   if(idade >= 10) {
     if(idade >= 14) {
       return "o menino que descobriu o vento";
