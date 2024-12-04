@@ -25,9 +25,14 @@ function draw() {
 function geraRecomendacao(idade) {
   if(idade >= 10) {
     if(idade >= 14) {
-      return "o menino que descobriu o vento"
+      return "o menino que descobriu o vento";
+    } else {
+      if(gostaDeFantasia) {
+        return "as aventuras de pi";  
+      } else {
+        return "Star Wars"
+      }
     }
-    return "as aventura de pi";
   }
   else {
     return "viagem de chihiro";
