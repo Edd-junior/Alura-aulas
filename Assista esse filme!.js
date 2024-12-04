@@ -7,15 +7,16 @@
 // ladrões de bicicleta, 12, drama
 // o menino que descobriu o vento, 14, drama
 
+let idadeUser;
 
 function setup() {
   createCanvas(400, 400);
-  createImput();
+  idadeUser = createImput();
 }
 
 function draw() {
   background(220);
-  let idade = 15;
+  let idade = idadeUser.value;
   let recomendacao = geraRecomendacao(idade);
   text(recomendacao, width / 2, height / 2);
 }
