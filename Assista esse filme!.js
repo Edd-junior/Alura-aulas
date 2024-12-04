@@ -21,11 +21,11 @@ function draw() {
   text(recomendacao, width / 2, height / 2);
 }
 
-function geraRecomendacao(idade){
-  if(idade >= 10){
+function geraRecomendacao(idade) {
+  if(idade >= 10) {
   return "as aventura de pi";
   }
-  else{
+  else {
   return "viagem de chihiro";
   }
 }
