@@ -6,6 +6,7 @@
 // paddington, LIVRE, fantasia, aventura
 // ladrões de bicicleta, 12, drama
 // o menino que descobriu o vento, 14, drama
+// Star wars, 12, ficção científica
 
 let idadeUser;
 
@@ -23,9 +24,12 @@ function draw() {
 
 function geraRecomendacao(idade) {
   if(idade >= 10) {
-  return "as aventura de pi";
+    if(idade >= 14) {
+      return "o menino que descobriu o vento"
+    }
+    return "as aventura de pi";
   }
   else {
-  return "viagem de chihiro";
+    return "viagem de chihiro";
   }
 }
