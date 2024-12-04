@@ -33,11 +33,15 @@ function geraRecomendacao(idade, gostaDeFantasia) {
       if(gostaDeFantasia) {
         return "as aventuras de pi";  
       } else {
-        return "Star Wars"
+        return "Star Wars";
       }
     }
   }
   else {
-    return "viagem de chihiro";
+    if(gostaDeFantasia) {
+      return "viagem de chihiro";
+    } else {
+      return "Meu amigo totoro";
+    }
   }
 }
