@@ -10,10 +10,21 @@
 
 function setup() {
   createCanvas(400, 400);
+  createImput();
 }
 
 function draw() {
   background(220);
-  let recomendacao = "viagem de chihiro";
-  Text(recomendacao, width / 2, height / 2);
+  let idade = 15;
+  let recomendacao = geraRecomendacao(idade);
+  text(recomendacao, width / 2, height / 2);
+}
+
+function geraRecomendacao(idade){
+  if(idade >= 10){
+  return "as aventura de pi";
+  }
+  else{
+  return "viagem de chihiro";
+  }
 }
