@@ -19,7 +19,7 @@ function draw() {
   let idade = idadeUser.value;
   let gostaDeFantasia = fantasiaUser.checked;
   let recomendacao = geraRecomendacao(idade, gostaDeFantasia);
-  fill(color(125, 5, 50));
+  fill(color(76, 5, 115));
   textSize(38);
   textAlign(CENTER, CENTER);
   text(recomendacao, width / 2, height / 2);
