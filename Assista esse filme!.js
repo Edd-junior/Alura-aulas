@@ -14,4 +14,6 @@ function setup() {
 
 function draw() {
   background(220);
+  let recomendacao = "viagem de chihiro";
+  Text(recomendacao, width / 2, height / 2);
 }
