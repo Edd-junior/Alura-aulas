@@ -1,0 +1,81 @@
+body{
+    color:aliceblue;
+    background: rgb(20, 3, 20);
+    margin: 0px;
+    padding: 10px;
+    font-family: "Noto Sans Mono", monospace;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 2px rgb(97, 43, 97); 
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(148, 69, 148);
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.apresentação{
+    background-color:rgb(134, 101, 224);
+    color:rgb(251, 220, 255);
+    padding-top: 50px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.text{
+    margin-right: 5%;
+    padding-top: 7%;
+    font-size: 20PX;
+}
+
+.catalogo{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+
+.categoria1{
+    color: rgb(148, 69, 148);
+}
+
+img{
+    height: 200px;
+}
+
+.vídeos1{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.vídeos1 img{
+    opacity: 0.4;
+}
+
+.vídeos1 img:hover{
+    opacity: 1.0;
+    border: 1px solid rgb(242, 200, 255);
+}
+
+.categoria2{
+    color: rgb(148, 69, 148);
+}
+.vídeos2{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.vídeos2 img{
+    opacity: 0.4;
+}
+
+.vídeos2 img:hover{
+    opacity: 1.0;
+    border: 1px solid rgb(242, 200, 255);
+}
